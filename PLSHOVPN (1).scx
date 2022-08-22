@@ -1,0 +1,51 @@
+{
+   "start_action" : "none",
+   "history" : {
+      "connect_time" : 0,
+      "connect_result" : 0
+   },
+   "rekey_time" : 15300,
+   "local_auth" : {
+      "psk" : {
+         "id" : "0.0.0.0"
+      },
+      "xauth" : {
+         "can_save" : false
+      },
+      "otp" : false
+   },
+   "child" : {
+      "remote_ts" : [
+         "0.0.0.0/0"
+      ],
+      "proposals" : [
+         "aes256-sha2_256-modp2048"
+      ],
+      "rekey_time" : 3060
+   },
+   "display_name" : "Trivent_VPN",
+   "remote_auth" : {
+      "otp" : false,
+      "psk" : {
+         "secret" : "Xg-Tr!&F#2022",
+         "id" : "0.0.0.0"
+      }
+   },
+   "favicon" : "",
+   "run_logon_script" : false,
+   "proposals" : [
+      "aes256-sha2_256-modp2048"
+   ],
+   "managed" : false,
+   "gateway" : "180.235.120.162",
+   "version" : 1,
+   "domain_suffix" : " ",
+   "dpd_delay" : "60 ",
+   "type" : "xg",
+   "vip" : "0.0.0.0",
+   "name" : "Trivent_VPN",
+   "auto_connect" : {
+      "enabled" : false,
+      "required" : false
+   }
+}
